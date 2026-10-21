@@ -1,6 +1,0 @@
-{
-  "name":"touche-pas-au-klaxon-front",
-  "private":true,
-  "scripts":{"build:css":"sass --load-path=node_modules resources/scss/main.scss public/assets/css/bundle.css --style=compressed --no-source-map"},
-  "devDependencies":{"sass":"^1.85.0","bootstrap":"^5.3.3"}
-}
