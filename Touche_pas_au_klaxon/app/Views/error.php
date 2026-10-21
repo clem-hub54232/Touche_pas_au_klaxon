@@ -1,0 +1,1 @@
+<div class="app-card p-5"><h1><?= \App\Core\Http::esc($title??'Erreur') ?></h1><p>Erreur <?= (int)($code??500) ?> : l'opération demandée n'a pas pu aboutir.</p><a href="/" class="btn btn-primary">Retour à l’accueil</a></div>

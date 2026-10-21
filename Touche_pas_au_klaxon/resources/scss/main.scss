@@ -1,0 +1,12 @@
+// Variables Bootstrap personnalisees, reutilisables pour d'autres sites intranet.
+$primary: #0074c7;
+$secondary: #384050;
+$info: #00497c;
+$success: #82b864;
+$danger: #cd2c2e;
+$body-bg: #f1f8fc;
+$body-color: #263341;
+$border-radius: .55rem;
+$font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+@import "bootstrap/scss/bootstrap";
+@import "./theme";

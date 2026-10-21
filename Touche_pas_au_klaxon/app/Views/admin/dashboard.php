@@ -1,0 +1,4 @@
+<div class="page-header"><h1>Tableau de bord administrateur</h1><p class="text-muted">Gérez les données de covoiturage inter-sites de votre entreprise.</p></div>
+<div class="row g-4"><div class="col-lg-4"><a class="app-card d-block p-4 text-decoration-none text-dark h-100" href="/admin/utilisateurs"><h2 class="h5 text-primary">Utilisateurs</h2><p class="mb-0">Consulter les salariés importés du système RH.</p></a></div>
+<div class="col-lg-4"><a class="app-card d-block p-4 text-decoration-none text-dark h-100" href="/admin/agences"><h2 class="h5 text-primary">Agences</h2><p class="mb-0">Ajouter, modifier ou supprimer une ville.</p></a></div>
+<div class="col-lg-4"><a class="app-card d-block p-4 text-decoration-none text-dark h-100" href="/admin/trajets"><h2 class="h5 text-primary">Trajets</h2><p class="mb-0">Consulter tous les trajets et agir sur chacun.</p></a></div></div>

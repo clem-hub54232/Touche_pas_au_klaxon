@@ -1,0 +1,3 @@
+<?php use App\Core\Http; $e=static fn(mixed $v):string=>Http::esc($v); ?>
+<div class="page-header"><h1>Employés</h1><p class="text-muted">Consultation uniquement : employés importés depuis le système RH.</p></div>
+<div class="app-card app-table table-responsive"><table class="table table-striped mb-0"><thead><tr><th>Nom</th><th>Prénom</th><th>E-mail</th><th>Téléphone</th><th>Rôle</th></tr></thead><tbody><?php foreach($users as $user):?><tr><td><?= $e($user['last_name']) ?></td><td><?= $e($user['first_name']) ?></td><td><?= $e($user['email']) ?></td><td><?= $e($user['phone']) ?></td><td><?= $e($user['role']) ?></td></tr><?php endforeach;?></tbody></table></div>
